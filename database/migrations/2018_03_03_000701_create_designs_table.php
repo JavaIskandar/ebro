@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTypesTable extends Migration
+class CreateDesignsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,11 @@ class CreateTypesTable extends Migration
      */
     public function up()
     {
-        Schema::create('types', function (Blueprint $table) {
+        Schema::create('designs', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->integer('id_category')
-                ->unsigned();
-            $table->foreign('id_category')
-                ->references('id')
-                ->on('categories')
-                ->onUpdate('CASCADE')
-                ->onDelete('CASCADE');
+            $table->string('dir');
+            $table->string('name');
         });
     }
 
@@ -33,6 +28,6 @@ class CreateTypesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('types');
+        Schema::dropIfExists('designs');
     }
 }

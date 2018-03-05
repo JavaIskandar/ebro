@@ -45,7 +45,14 @@ class CreateStocksTable extends Migration
                 ->on('genders')
                 ->onUpdate('CASCADE')
                 ->onDelete('CASCADE');
-            $table->integer('count');
+            $table->integer('id_type')
+                ->unsigned();
+            $table->foreign('id_type')
+                ->references('id')
+                ->on('types')
+                ->onUpdate('CASCADE')
+                ->onDelete('CASCADE');
+            $table->integer('quantity');
         });
     }
 

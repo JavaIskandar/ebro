@@ -16,6 +16,15 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->integer('id_stock')
+                ->unsigned();
+            $table->foreign('id_stock')
+                ->references('id')
+                ->on('stocks')
+                ->onUpdate('CASCADE')
+                ->onDelete('CASCADE');
+            $table->integer('quantity');
+            $table->integer('cost');
         });
     }
 
