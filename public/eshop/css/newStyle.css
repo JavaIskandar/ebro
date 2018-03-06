@@ -1,0 +1,11 @@
+.product-overlay {
+    background: #000;
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+}
