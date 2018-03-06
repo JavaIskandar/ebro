@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', [
-    'uses' => 'UserController@home',
-    'as' => 'home'
-]);
+Route::get('/', function () {
+    return view('user.home');
+});
