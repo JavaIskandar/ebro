@@ -7,7 +7,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/icon.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconshirt2.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -32,7 +32,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('iconshirt.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconjaccket.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -57,7 +57,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/icon.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconkemeja.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -82,7 +82,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/icon.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconhijab.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
