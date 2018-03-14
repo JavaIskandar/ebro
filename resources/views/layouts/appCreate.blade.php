@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="logo pull-left">
-                        <a href="index.html"><img src="imag/logo e& copy 2.png" alt="" /></a>
+                        <a><img src="{{ asset('storage/design/logoe&.png') }}"alt="" /></a>
                     </div>
                 </div>
                 <div class="col-sm-8">
@@ -117,52 +117,8 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <div class="left-sidebar">
-                    <h2>Kategori</h2>
-                    <div class="panel-group category-products" id="accordian"><!--category-productsr-->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Wanita</a></h4>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Pria</a></h4>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Anak-anak</a></h4>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Jumper</a></h4>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Kemeja</a></h4>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"><a href="#">Hijab</a></h4>
-                            </div>
-                        </div>
-                    </div><!--/category-products-->
 
-                    <div class="price-range"><!--price-range-->
-                        <h2>Kisaran Harga</h2>
-                        <div class="well text-center">
-                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
-                            <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
-                        </div>
-                    </div><!--/price-range-->
-                </div>
-            </div>
-            <div class="col-sm-9 padding-right">
+            <div class="col-sm-12 padding-right">
                 @yield('content')
             </div>
 
@@ -200,7 +156,7 @@
 
                 <div class="col-sm-12 col-lg-5 col-sm-offset-1">
                     <div class="single-widget">
-                        <h2>About Shopper</h2>
+                        <h2>About E&Bro</h2>
                         <form action="#" class="searchform">
                             <input type="text" placeholder="Your email address" />
                             <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>

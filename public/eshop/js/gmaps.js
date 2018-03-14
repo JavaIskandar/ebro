@@ -1640,7 +1640,7 @@ GMaps.staticMapURL = function(options){
         delete data.size;
       }
       else if (data.icon) {
-        marker.push('icon:' + encodeURI(data.icon));
+        marker.push('ebro:' + encodeURI(data.icon));
         delete data.icon;
       }
 

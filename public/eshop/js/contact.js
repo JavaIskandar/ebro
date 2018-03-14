@@ -32,11 +32,11 @@ jQuery(function($) {'use strict',
 		clickable: false
 	});
 
-	var image = 'images/map-icon.png';
+	var image = 'images/map-ebro.png';
 	map.addMarker({
 		lat: 43.1580159,
 		lng: -77.6030777,
-		// icon: image,
+		// ebro: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',
 		horizontalAlign: 'center',

@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('user.home');
 });
+
+Route::get('/create', function () {
+    return view ('user.createMenu');
+});
+

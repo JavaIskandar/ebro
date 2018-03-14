@@ -9,3 +9,79 @@
     display: block;
     opacity: 0.5;
 }
+
+/* -- for codepen display purposes only -- */
+.jumbotron {
+    padding-bottom: 48px;
+    padding-top: 48px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+body {
+    padding-top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:#0e48ad;
+}
+
+a:focus, a:hover {
+    color:#123294;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Source Sans Pro",sans-serif;
+    font-weight:bold;
+}
+
+/*This is an alternate class for 'thinner' font weights on headers*/
+.h--alt {
+    font-weight: 300;
+    margin-top:0;
+}
+
+/*Bootstrap OOB header tags are too small. This is an adjustment*/
+
+h5 {
+    font-size:16px;
+}
+
+h6 {
+    font-size:14px;
+}
+
+a {
+    color:#0e48ad;
+}
+
+a:focus, a:hover {
+    color:#123294;
+}
+
+/* -------------------*/
+.cardSimple .btn {
+    border-radius:0;
+    font-size:16px;
+    padding: 6px 14px;
+}
+
+.cardSimple .btn {
+    background-color:#cfb87c;
+    color:#222;
+    border:0px solid transparent;
+}
+
+.cardSimple .btn:hover {
+    background-color:#c8ad6a;
+}
+
+
+.cardSimple {
+    margin:15px 0;
+}
+
+.cardSimple h3 {
+    margin-top:15px;
+}
+
