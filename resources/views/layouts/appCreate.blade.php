@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="logo pull-left">
-                        <a><img src="{{ asset('storage/design/logoe&.png') }}"alt="" /></a>
+                        <a><img src="{{ asset('storage/design/logo e&bro.png') }}"alt="" /></a>
                     </div>
                 </div>
                 <div class="col-sm-8">
