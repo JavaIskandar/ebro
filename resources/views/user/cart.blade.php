@@ -28,6 +28,7 @@
                     </td>
                     <td class="cart_description">
                         <h4><a href="">Jaket</a></h4>
+                        <h4><a href="">(L x 1 / Aeroplain)</a></h4>
                     </td>
                     <td class="cart_price">
                         <p>Rp 100.000</p>
@@ -53,6 +54,7 @@
                     </td>
                     <td class="cart_description">
                         <h4><a href="">Kaos Cowok</a></h4>
+                        <h4><a href="">(L x 1 / Aeroplain)</a></h4>
                     </td>
                     <td class="cart_price">
                         <p>Rp 100.000</p>
@@ -77,6 +79,7 @@
                     </td>
                     <td class="cart_description">
                         <h4><a href="">Kaos Cewek</a></h4>
+                        <h4><a href="">(L x 1 / Aeroplain)</a></h4>
                     </td>
                     <td class="cart_price">
                         <p>Rp 100.000</p>
@@ -103,13 +106,22 @@
 
 <section id="do_action">
     <div class="container">
-        <div class="heading">
-            <h3>What would you like to do next?</h3>
-            <p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
-        </div>
         <div class="row">
             <div class="col-sm-6">
                 <div class="chose_area">
+                    <div class="modal-header"><label>IDENTITAS PEMBELI</label></div>
+                    <ul class="user_info">
+                        <label>Nama:</label>
+                        <input type="text">
+                    </ul>
+                    <ul class="user_info">
+                        <label>Email/Telepon:</label>
+                        <input type="text">
+                    </ul>
+                    <ul class="user_info">
+                        <label>Alamat:</label>
+                        <input type="text">
+                    </ul>
                     <ul class="user_info">
                         <li class="single_field">
                             <label>Provinsi :</label>
@@ -144,15 +156,32 @@
                             <input type="text">
                         </li>
                     </ul>
-                    <a class="btn btn-default check_out" href="">Continue</a>
+
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="total_area">
+                    <div class="modal-header"><label>METODE PEMBAYARAN</label></div>
+                    <ul class="user_info">
+                        <li class="single_field zip-field">
+                            <input type="radio" name="gender" value="bank"><center>Transfer Bank</center>
+                           </li>
+                        <li class="single_field zip-field">
+                            <input type="radio" name="gender" value="kredit"><center>Kartu Kredit</center>
+                        </li>
+                        <li class="single_field zip-field">
+                            <input type="radio" name="gender" value="cod"><center>COD</center>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="total_area">
+                    <div class="modal-header"><label>TOTAL BIAYA</label></div>
                     <ul>
-                        <li>Sub Total <span>Rp 100.000</span></li>
+                        <li>Sub Total <span>Rp 80.000</span></li>
                         <li>Biaya Pengiriman <span>Rp 10.000</span></li>
-                        <li>Total <span>Rp 100.000</span></li>
+                        <li>Total <span>Rp 90.000</span></li>
                     </ul>
                     <a class="btn btn-default check_out" href="">Check Out</a>
                 </div>
