@@ -7,7 +7,7 @@
                 <div class="modal-header">
                     <label><h3>Pilihan Ukuran</h3></label>
                 </div>
-                <div class="col-sm-12"><label><h4>Masukkan jumlah pada ukuran yang diinginkan :</h4></label></div>
+                <div class="col-sm-12"><label><h4>Masukkan jumlah pada ukuran yang diinginkan</h4></label></div>
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="chose_area">
@@ -34,6 +34,7 @@
                                 </li>
                             </ul>
                             <div class="col-sm-12"><label><h4>Estimasi Harga : </h4><h2>Rp. 80.000</h2></label></div>
+                            <div class="col-sm-12"><label><h5>nb : Harga diatas belum termasuk ongkos kirim</h5></label></div>
                         </div>
                     </div>
                 </div>

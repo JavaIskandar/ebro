@@ -159,7 +159,7 @@
 
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6"> 
                 <div class="total_area">
                     <div class="modal-header"><label>METODE PEMBAYARAN</label></div>
                     <ul class="user_info">
