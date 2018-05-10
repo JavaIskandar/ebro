@@ -16,9 +16,17 @@ Route::get('/', function () {
 });
 
 Route::get('/create', function () {
+    return view ('user.createMenu');
+});
+
+Route::get('/create/tshirt-pria', function() {
     return view ('user.create_product');
 });
 
 Route::get('/cart', function () {
     return view ('user.cart');
+});
+
+Route::get('/harga', function () {
+    return view ('user.estimasiharga');
 });
