@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/create', function () {
-    return view ('user.createMenu');
+    return view ('user.create_product');
 });
 
 Route::get('/cart', function () {

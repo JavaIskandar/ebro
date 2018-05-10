@@ -52,6 +52,7 @@ class CreateStocksTable extends Migration
                 ->on('types')
                 ->onUpdate('CASCADE')
                 ->onDelete('CASCADE');
+            $table->boolean('long_sleeve');
             $table->integer('quantity');
         });
     }

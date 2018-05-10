@@ -15,7 +15,9 @@
     <link href="{{ asset('eshop/css/responsive.css') }}" rel="stylesheet">
     <link href="{{ asset('eshop/css/newStyle.css') }}" rel="stylesheet">
     <link href="{{ asset('eshop/css/newAppStyle.css') }}" rel="stylesheet">
+    <link href="{{ asset('fa/css/fontawesome-all.css') }}" rel="stylesheet">
     <script src="{{ asset('js/konva.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
     @stack('css')
 
     <!--[if lt IE 9]>
@@ -53,27 +55,6 @@
         </div>
     </div><!--/header_top-->
 
-    <div class="header-middle"><!--header-middle-->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="logo pull-left">
-                        <a><img src="{{ asset('storage/design/logo e&bro.png') }}"alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="shop-menu pull-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-                            <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Keranjang</a></li>
-                            <li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--/header-middle-->
-
     <div class="header-bottom"><!--header-bottom-->
         <div class="container">
             <div class="row">
@@ -102,11 +83,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div style="width: 100%" class="search_box pull-right">
-                        <input style="width: 100%" type="text" placeholder="Search"/>
-                    </div>
-                </div>
             </div>
         </div>
     </div><!--/header-bottom-->
@@ -128,57 +104,6 @@
     </div>
 </section>
 
-<footer id="footer"><!--Footer-->
-
-    <div class="footer-widget">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-2">
-                    <div class="single-widget">
-                        <h2>About E&Bro</h2>
-                        <ul class="nav nav-pills nav-stacked">
-                            <li><i class="fa fa-home"></i> Jl.Ketintang</li>
-                            <li>Krembangan</li>
-                            <li>Surabaya</li>
-                            <li>Jawa Timur</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-2">
-                    <div class="single-widget">
-                        <h2>Contact Us</h2>
-                        <ul class="nav nav-pills nav-stacked">
-                            <li><i class="fa fa-phone"></i> (+62)838 3000 0582</li>
-                            <li><i class="fa fa-facebook"></i> (+62)838 3000 0582</li>
-                            <li><i class="fa fa-envelope"></i> E&Bro@gmail.com</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-5 col-sm-offset-1">
-                    <div class="single-widget">
-                        <h2>About E&Bro</h2>
-                        <form action="#" class="searchform">
-                            <input type="text" placeholder="Your email address" />
-                            <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-                            <p>Get the most recent updates from <br />our site and be updated your self...</p>
-                        </form>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <p class="pull-left">Copyright © 2018 E&BRO Universitas Negeri Surabaya. All rights reserved.</p>
-            </div>
-        </div>
-    </div>
-
-</footer><!--/Footer-->
 
 @stack('js')
 
