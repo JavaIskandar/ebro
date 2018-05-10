@@ -15,6 +15,7 @@
     <link href="{{ asset('eshop/css/responsive.css') }}" rel="stylesheet">
     <link href="{{ asset('eshop/css/newStyle.css') }}" rel="stylesheet">
     <link href="{{ asset('eshop/css/newAppStyle.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/konva.min.js') }}"></script>
     @stack('css')
 
     <!--[if lt IE 9]>
