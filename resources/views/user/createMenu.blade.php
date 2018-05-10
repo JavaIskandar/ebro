@@ -7,7 +7,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconshirt2.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('Product/T-Shirt/Male/blue.png') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -32,7 +32,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconjaccket.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('Product/Jacket/Hoodie_Red_jpeg_eaa99d02-85d4-4128-a175-45b1a82f9f1e_1024x1024.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -57,7 +57,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconkemeja.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('Product/Kemeja/iconkemeja.png') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
@@ -82,7 +82,7 @@
     <div class="cardSimple">
         <div class="row">
             <div class="col-md-6">
-                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('storage/ebro/iconhijab.jpg') }}" alt="description of image">
+                <img alt="Girl and Mountains" class="img-responsive" src="{{ asset('Product/Hijab/iconhijab.jpg') }}" alt="description of image">
             </div>
             <div class="col-md-4 ">
                 <div class="caption" aria-describedby="cardSimpleTitle">
